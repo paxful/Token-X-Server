@@ -1,0 +1,9 @@
+{
+    "postgres_connect" : "host=localhost user=token password='erc20' port=5432 dbname=etherdb sslmode=disable connect_timeout=10",
+    "HOST" : "LOCALHOST",
+    "MAIN_HOST" : "",
+    "KOVAN_HOST" : "",
+    "KOVAN_INFURA" : "",
+    "LOCALHOST": "http://localhost:8545" ,
+    "port" : ":9000"
+}

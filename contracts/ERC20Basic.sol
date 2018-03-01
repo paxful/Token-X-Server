@@ -1,0 +1,17 @@
+pragma solidity ^0.4.11;
+
+
+/**
+ * @title ERC20Basic
+ * @dev Simpler version of ERC20 interface
+ * @dev see https://github.com/ethereum/EIPs/issues/20
+ */
+contract ERC20Basic {
+  uint public totalSupply;
+  string public name;
+  string public symbol;
+  uint8 public decimals;
+  function balanceOf(address who) constant returns (uint);
+  function transfer(address to, uint value);
+  event Transfer(address indexed from, address indexed to, uint value);
+}
